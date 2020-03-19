@@ -40,7 +40,8 @@ RUN apk add --no-cache \
     ttf-dejavu \
     tzdata \
     unzip \
-    which
+    which \
+    git
 
 # Installing Ruby Gems needed in the image
 # including asciidoctor itself
